@@ -1,15 +1,31 @@
-# motion_sensors_updated
+# motion_sensors
 
-Flutter plugin for accessing the Android and iOS accelerometer, gyroscope, magnetometer, and orientation sensors.
+[![pub package](https://img.shields.io/pub/v/motion_sensors.svg)](https://pub.dev/packages/motion_sensors)
+
+Flutter plugin for accessing the Android and iOS accelerometer, gyroscope, magnetometer and orientation sensors.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+To use this plugin, add `motion_sensors` as a [dependency in your pubspec.yaml
+file](https://flutter.io/platform-plugins/).
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  motion_sensors: ^0.1.0
+```
+
+Import to your project.
+
+``` dart
+import 'package:motion_sensors/motion_sensors.dart';
+
+motionSensors.magnetometer.listen((MagnetometerEvent event) {
+    print(event);
+});
+
+```
+
+## Screenshot
+
+<img src="https://github.com/zesage/motion_sensors/raw/master/screenshot.png" width="30%" />
 
