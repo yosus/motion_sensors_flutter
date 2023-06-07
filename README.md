@@ -3,6 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/motion_sensors.svg)](https://pub.dev/packages/motion_sensors)
 
 NOTE: This plugin it's a stable version of [zesage/motion_sensors](https://github.com/zesage/motion_sensors).
+
 Flutter plugin for accessing the Android and iOS accelerometer, gyroscope, magnetometer and orientation sensors.
 
 ## Getting Started
