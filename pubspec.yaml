@@ -1,4 +1,4 @@
-name: motion_sensors_updated
+name: motion_sensors_flutter
 description: Flutter plugin for accessing the Android and iOS accelerometer, gyroscope, magnetometer, and orientation sensors.
 version: 0.0.1
 homepage:
